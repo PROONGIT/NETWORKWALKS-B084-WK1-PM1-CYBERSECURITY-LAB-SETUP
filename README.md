@@ -220,7 +220,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 ---
 
-The command **`ip a`** shows the configured IP address 10.0.0.2 /24 and states that it is a static and consistent IP address.
+The command **`ip a`** shows the configured IP address **`10.0.0.2 /24`** and states that it is a static and consistent IP address.
 
 ![](6-screenshot-kali-ip-address.png)
 
@@ -240,7 +240,7 @@ The pings to the gateway **`10.0.0.1`** and internet **`8.8.8.8`** were suceessf
 
 ---
 
-The domain is successfuly resolved and the Nmap version showed up.
+The domain was successfuly resolved and the Nmap version showed up with the commmnands **`nslookup networkwalks.com`** and **`nmap --version`**.
 
 ![](8-screenshot-kali-dns-testing.png)
 
@@ -260,6 +260,19 @@ DNS:
 ```
 
 ---
+
+## Verifying snapshot
+
+---
+
+To verify the snapshot effectiveness, we restored the VM to its baseline configuration state previously snapshot.
+
+Once again, the command **`ip a`** showed that the VM IP address remained **`10.0.0.2 /24`**.
+
+The snapshot and the restoration were successful.
+
+---
+
 
 # 🐞 Problems Encountered & Solutions
 
