@@ -269,7 +269,7 @@ Documenting problems is an important part of the project.
 
 ## Internet Connectivity After Static IP Configuration
 
-After manually configuring the IPv4 settings, Internet connectivity may fail depending on the Kali/NetworkManager configuration.
+After manually configuring the IPv4 settings, Internet connectivity failed.
 
 One workaround used during this lab was:
 
@@ -278,8 +278,6 @@ sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 ```
 
 The network connection was then restarted/rebooted and connectivity was tested again.
-
-> **Important:** Network interface and connection names may differ between systems. Students should first identify their actual connection name before running an `nmcli` command.
 
 
 ---
