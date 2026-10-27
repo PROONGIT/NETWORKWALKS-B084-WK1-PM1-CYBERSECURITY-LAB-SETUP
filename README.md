@@ -284,15 +284,17 @@ The network connection was then restarted/rebooted and connectivity was tested a
 
 ---
 
-# 💡 What I Learned
+# 💡 What I practiced
 
-Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
+Through this project, I created and configured a virtual environment for cybersecurity practice.
 
-The most important concepts I learned include:
+The most important concepts I demonstrated include:
 
 ### 1. NAT vs NAT Network
 
 A standard NAT configuration and a NAT Network serve different purposes.
+
+A standard NAT provides network address translation for external connectivity.
 
 A NAT Network allows multiple VMs connected to the same virtual network to communicate with one another while providing network address translation for external connectivity.
 
@@ -300,21 +302,21 @@ This makes it useful for building a multi-machine cybersecurity laboratory.
 
 ### 2. Virtual Machine Networking
 
-I learned how VirtualBox virtual network adapters connect virtual machines to different types of networks and how network configuration affects communication between machines.
+I set up VirtualBox virtual network adapters to connect virtual machines to different types of networks. I experienced how network configuration affects communication between machines.
 
 ### 3. Static IP Configuration
 
-I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
+I configured and verified IPv4 static address, subnet masks, gateway, and DNS settings in Kali Linux.
 
 ### 4. VM Snapshots
 
-I learned that a clean snapshot should be created **before performing risky or experimental activities**.
+I created a clean snapshot **before performing risky or experimental activities**.
 
 This provides a known-good recovery point for future cybersecurity exercises.
 
 ### 5. Documentation
 
-I learned that documenting commands, configuration, screenshots, problems, and solutions is an important part of a professional cybersecurity project.
+I documented commands, configurations, screenshots, problems and solutions. That is an important part of a professional cybersecurity project.
 
 ---
 
