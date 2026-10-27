@@ -63,8 +63,6 @@ It can be used for activities such as:
 - Exploitation practice
 - Security-tool experimentation
 
-⚠️ Important: This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
-
 ---
 
 ## 🏗️ Lab Architecture
@@ -321,6 +319,8 @@ I documented commands, configurations, screenshots, problems and solutions. That
 # 🔐 Security & Ethical Use
 
 This laboratory is intended strictly for education purposes only.
+
+>>⚠️ Important: This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
 
 ---
 
