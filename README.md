@@ -273,6 +273,14 @@ The snapshot and the restoration were successful.
 
 ---
 
+## Project short video
+
+This a short video recorded from the Kali VM screen.
+
+<video src="9-Project_Video_1.mp4" controls autoplay muted loop width="600"></video>
+
+---
+
 
 # 🐞 Problems Encountered & Solutions
 
