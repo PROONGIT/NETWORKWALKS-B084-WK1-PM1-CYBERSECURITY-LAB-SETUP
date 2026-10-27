@@ -202,7 +202,11 @@ If a future exercise changes or damages the VM configuration, the machine can be
 | 🧰 Verify Nmap                | `nmap --version`                | Nmap version displayed          |
 | 🔄 Verify snapshot            | Restore snapshot and run `ip a` | Baseline configuration restored |
 
-## Kali VM's IP address checking
+---
+
+## Checking Kali VM's IP address
+
+---
 
 The command **ip a** shows the configured IP address 10.0.0.2 /24 and states that it is a static and consistent IP address.
 
