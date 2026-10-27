@@ -277,7 +277,7 @@ The snapshot and the restoration were successful.
 
 This a short video recorded from the Kali VM screen.
 
-<video src="https://github.com/PROONGIT/NETWORKWALKS-B084-WK1-PM1-CYBERSECURITY-LAB-SETUP/9-Project_Video_1.mp4" controls autoplay muted loop width="600"></video>
+<video src="./9-Project_Video_1.mp4" controls></video>
 
 ---
 
