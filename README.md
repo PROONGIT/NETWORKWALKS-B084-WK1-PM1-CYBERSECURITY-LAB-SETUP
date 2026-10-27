@@ -95,6 +95,18 @@ Additional target machines can be added to the same virtual network in future pr
 
 ---
 
+## ⚠️ VirtualBox VT-x / Virtualization 
+
+Enable virtualization in the system firmware/BIOS of the hardware:
+
+1. Restart the computer.
+2. Enter BIOS/UEFI settings.
+3. Enable Intel VT-x / hardware virtualization.
+4. Save the configuration.
+5. Restart the computer.
+
+---
+
 # 🪜 Lab Setup Procedure
 
 ## Step 1. Install 7-Zip
@@ -255,7 +267,7 @@ DNS:
 
 Documenting problems is an important part of the project.
 
-## Problem 1. Internet Connectivity After Static IP Configuration
+## Internet Connectivity After Static IP Configuration
 
 After manually configuring the IPv4 settings, Internet connectivity may fail depending on the Kali/NetworkManager configuration.
 
@@ -268,23 +280,6 @@ sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 The network connection was then restarted/rebooted and connectivity was tested again.
 
 > **Important:** Network interface and connection names may differ between systems. Students should first identify their actual connection name before running an `nmcli` command.
-
----
-
-## Problem 2. VirtualBox VT-x / Virtualization Error
-
-The VM initially failed to start because hardware virtualization was disabled in the system firmware/BIOS.
-
-The issue was resolved by:
-
-1. Restarting the computer.
-2. Entering BIOS/UEFI settings.
-3. Enabling Intel VT-x / hardware virtualization.
-4. Saving the configuration.
-5. Restarting the computer.
-6. Starting the Kali VM again.
-
-After enabling virtualization, the VM started successfully.
 
 
 ---
