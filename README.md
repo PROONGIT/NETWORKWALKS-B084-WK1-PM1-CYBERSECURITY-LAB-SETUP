@@ -277,8 +277,6 @@ The snapshot and the restoration were successful.
 
 This a short video recorded from the Kali VM screen.
 
-<video src="videos/9-Project_Video_1.mp4" controls></video>
-
 
 https://github.com/user-attachments/assets/856582bf-d17a-42cb-a4b7-1c300a68a867
 
