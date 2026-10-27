@@ -220,7 +220,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 ---
 
-The command **ip a** shows the configured IP address 10.0.0.2 /24 and states that it is a static and consistent IP address.
+The command **`ip a`** shows the configured IP address 10.0.0.2 /24 and states that it is a static and consistent IP address.
 
 ![](6-screenshot-kali-ip-address.png)
 
@@ -230,7 +230,7 @@ The command **ip a** shows the configured IP address 10.0.0.2 /24 and states tha
 
 ---
 
-The pings to the gateway 10.0.0.1 and 8.8.8.8 were suceessful.
+The pings to the gateway **`10.0.0.1`** and internet **`8.8.8.8`** were suceessful.
 
 ![](7-screenshot-kali-connectivity-testing.png)
 
@@ -240,7 +240,7 @@ The pings to the gateway 10.0.0.1 and 8.8.8.8 were suceessful.
 
 ---
 
-The domain is successfuly resolved and the Nmap version shows up.
+The domain is successfuly resolved and the Nmap version showed up.
 
 ![](8-screenshot-kali-dns-testing.png)
 
