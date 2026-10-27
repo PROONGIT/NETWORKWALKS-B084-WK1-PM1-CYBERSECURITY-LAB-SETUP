@@ -350,7 +350,7 @@ This laboratory is intended strictly for education purposes only.
 **AZIAGBEDO KOKOU SODJINE**\
 Cybersecurity Professional B084
 
-LinkedIn: [https://www.linkedin.com/in/kokou-sodjin%C3%A8-aziagbedo-434b2949]
+LinkedIn: https://www.linkedin.com/in/kokou-sodjin%C3%A8-aziagbedo-434b2949
 
 ---
 
