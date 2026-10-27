@@ -97,7 +97,7 @@ Additional target machines can be added to the same virtual network in future pr
 
 ## ⚠️ VirtualBox VT-x / Virtualization 
 
-Enable virtualization in the system firmware/BIOS of the hardware:
+Virtualization was enabled in the system firmware/BIOS of the hardware:
 
 1. Restart the computer.
 2. Enter BIOS/UEFI settings.
