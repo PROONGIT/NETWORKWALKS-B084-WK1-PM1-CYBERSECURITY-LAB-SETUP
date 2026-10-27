@@ -131,7 +131,7 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 
-![](2-screenshot-network-settings-1.png)
+![](images/2-screenshot-network-settings-1.png)
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
@@ -158,7 +158,7 @@ The VM was allocated:
 ```text
 RAM: 4096 MB
 ```
-![](3-screenshot-kali-linux.png)
+![](images/3-screenshot-kali-linux.png)
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 
@@ -180,7 +180,7 @@ DNS: 8.8.8.8
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-![](4-screenshot-kali-network-settings.png)
+![](images/4-screenshot-kali-network-settings.png)
 
 ---
 
@@ -198,7 +198,7 @@ The snapshot represents the clean baseline of the laboratory.
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
 
-![](5-screenshot-kali-snapshot.png)
+![](images/5-screenshot-kali-snapshot.png)
 
 
 ---
@@ -222,7 +222,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 The command **`ip a`** shows the configured IP address **`10.0.0.2 /24`** and states that it is a static and consistent IP address.
 
-![](6-screenshot-kali-ip-address.png)
+![](images/6-screenshot-kali-ip-address.png)
 
 ---
 
@@ -232,7 +232,7 @@ The command **`ip a`** shows the configured IP address **`10.0.0.2 /24`** and st
 
 The pings to the gateway **`10.0.0.1`** and internet **`8.8.8.8`** were suceessful.
 
-![](7-screenshot-kali-connectivity-testing.png)
+![](images/7-screenshot-kali-connectivity-testing.png)
 
 ---
 
@@ -242,7 +242,7 @@ The pings to the gateway **`10.0.0.1`** and internet **`8.8.8.8`** were suceessf
 
 The domain was successfuly resolved and the Nmap version showed up with the commmnands **`nslookup networkwalks.com`** and **`nmap --version`**.
 
-![](8-screenshot-kali-dns-testing.png)
+![](images/8-screenshot-kali-dns-testing.png)
 
 ---
 
