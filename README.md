@@ -212,11 +212,31 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 The command **ip a** shows the configured IP address 10.0.0.2 /24 and states that it is a static and consistent IP address.
 
-![](5-screenshot-kali-ip-address.png)
+![](6-screenshot-kali-ip-address.png)
 
 ---
 
-### Example Results
+## Testing gateway and internet connectivity
+
+---
+
+The pings to the gateway 10.0.0.1 and 8.8.8.8 were suceessful.
+
+![](7-screenshot-kali-connectivity-testing.png)
+
+---
+
+## Testing DNS resolution and Nmap version
+
+---
+
+The domain is successfuly resolved and the Nmap version shows up.
+
+![](8-screenshot-kali-dns-testing.png)
+
+---
+
+### Tests conditions
 
 ```text
 IP Address:
